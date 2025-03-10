@@ -383,7 +383,7 @@
           <img src="./static/images/efficiency_fid_and_training_animation.gif" style="max-width: 100%; height: auto;">
           <div class="content has-text-justified">
             <p>
-              <strong>DeepFlow Architecture.</strong> (a) On the ImageNet-256 benchmark, DeepFlow consistently 
+              <strong>Training Efficiency.</strong> (a) On the ImageNet-256 benchmark, DeepFlow consistently 
                 outperforms SiT in FID scores across various model sizes. 
                 (b) DeepFlow-XL achieves an 8x training efficiency improvement over SiT-XL.
             </p>
@@ -391,7 +391,15 @@
           <img src="./static/images/quan_base_xl.png" style="max-width: 100%; height: auto;">
           <div class="content has-text-justified">
             <p>
-              <strong>DeepFlow Architecture.</strong> (Left) Quantitative Results using Base Model on ImageNet-256.
+              <strong>Tradeoff between Efficiency and Performance of DeepFlow.</strong> All of the experiments, 
+                including the reproduced, better baseline SiT variants, utilize lognormal sampling with 80 epochs 
+              of training in ImageNet-256×256 and are evaluated using SDE 250 steps without CFG.
+            </p>
+          </div>
+          <img src="./static/images/quan_base_xl.png" style="max-width: 100%; height: auto;">
+          <div class="content has-text-justified">
+            <p>
+              <strong>Comparison with Flow-Based Models.</strong> (Left) Quantitative Results using Base Model on ImageNet-256.
                 (Right) Quantitative Results using XLarge Model on ImageNet-256. Both without CFG.
             </p>
           </div>
