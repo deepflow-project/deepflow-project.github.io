@@ -27,6 +27,15 @@ body {
   font-family: 'Google Sans', sans-serif;
 }
 
+ .teaser-carousel {
+    width: 95%;
+    margin: auto;
+    max-height: 540px;
+ }
+
+.teaser-img {
+    width: 90% !important;
+}
 
 .publication-title {
 }
