@@ -28,13 +28,13 @@ body {
 }
 
  .teaser-carousel {
-    width: 95%;
+    width: 75%;
     margin: auto;
     max-height: 540px;
  }
 
 .teaser-img {
-    width: 90% !important;
+    width: 50% !important;
 }
 
 .publication-title {
