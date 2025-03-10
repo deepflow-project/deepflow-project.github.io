@@ -335,7 +335,11 @@
           <img src="./static/images/intro_featdist_fid_v1_animation.gif" style="max-width: 100%; height: auto;">
           <div class="content has-text-justified">
             <p>
-              Importance of Internal Feature Alignment for Flow-Based Models.
+              <strong>Importance of Internal Feature Alignment for Flow-Based Models.</strong> Our DeepFlow enhances the baseline flow-based model (a) 
+                by explicitly aligning intermediate velocity features with final layer features. 
+                As shown in (b), simply applying deep supervision reduces the feature distance between intermediate velocity and final, improving FID scores (light blue bars in (d, e)). 
+                To further minimize this distance, we introduce the VeRA block, which refines deeply-supervised intermediate features, more closely aligned to final velocity features. 
+                This leads to even better image generation quality (dark blue bars in (e)).
             </p>
           </div>
       </div>
